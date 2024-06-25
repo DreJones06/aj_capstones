@@ -13,6 +13,6 @@ elif [[ $GIT_BRANCH == "origin/master" ]]; then
     docker login -u karthick0501 -p dckr_pat_8gbfGPimLBn6h3h-X-6zhoJS0U0
     docker tag devops-build karthick0501/prod 
     docker push karthick0501/prod
-else;
+else
     echo "Failed"
 fi
